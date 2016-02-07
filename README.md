@@ -14,6 +14,6 @@ Switch to Xcode Swift DEVELOPMENT Snapshot 2016-02-03 (a) snapshot and it starts
 module ifaddrs [system] {
         header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/ifaddrs.h"
         export *
-    
 }
+
 7. Update project settings by searching for "Import Path" and add $(PROJECT_DIR)/ifaddr to that line.
