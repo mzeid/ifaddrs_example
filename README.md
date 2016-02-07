@@ -10,8 +10,10 @@ Switch to Xcode Swift DEVELOPMENT Snapshot 2016-02-03 (a) snapshot and it starts
 4. Add Foo.swift to project
 5. Add ifaddr directory to project
 6. Add module.map to ifaddr directory
-    module ifaddrs [system] {
+    
+module ifaddrs [system] {
         header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/ifaddrs.h"
         export *
-    }
+    
+}
 7. Update project settings by searching for "Import Path" and add $(PROJECT_DIR)/ifaddr to that line.
