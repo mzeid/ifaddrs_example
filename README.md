@@ -1,3 +1,5 @@
+!!! PROBLEM RESOLVED. CHECK module.map FILE FOR COMMENTS !!!
+
 This is an example of a problem with the February 3, 2016 Xcode snapshot.
 
 Build the project in Xcode 7.3 using the default 7.3 toolchain. No problem.
