@@ -1,4 +1,7 @@
 module ifaddrs [system] {
-    header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/ifaddrs.h"
+    //if using xcode beta, make sure to use the right path
+    header "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/ifaddrs.h"
+    
+    //header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/ifaddrs.h"
     export *
 }
