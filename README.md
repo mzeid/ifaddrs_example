@@ -1,4 +1,5 @@
 !!! PROBLEM RESOLVED. CHECK module.map FILE FOR COMMENTS !!!
+https://bugs.swift.org/browse/SR-687
 
 This is an example of a problem with the February 3, 2016 Xcode snapshot.
 
